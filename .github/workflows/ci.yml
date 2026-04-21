@@ -36,7 +36,7 @@ jobs:
           docker push ${{ secrets.DOCKER_USERNAME }}/gitops-app:latest
 
       - name: Run Trivy Scan
-        uses: aquasecurity/trivy-action@0.20.0
+        uses: aquasecurity/trivy-action@master
         with:
           image-ref: ${{ secrets.DOCKER_USERNAME }}/gitops-app:latest
           format: 'table'
