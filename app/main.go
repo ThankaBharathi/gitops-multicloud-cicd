@@ -6,7 +6,7 @@ import (
 )
 
 func homeHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "🚀 GitOps CI/CD Pipeline is Running!")
+	fmt.Fprintf(w, "🚀 GitOps CI/CD Pipeline is Running! Everything is correct aa !..")
 }
 
 func healthHandler(w http.ResponseWriter, r *http.Request) {
