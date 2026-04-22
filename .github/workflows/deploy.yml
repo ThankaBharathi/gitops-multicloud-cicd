@@ -33,7 +33,7 @@ jobs:
 
       - name: Commit updated manifest
         run: |
-          git config --global user.email "you@example.com"
+          git config --global user.email "thankabharathi0@gmail.com"
           git config --global user.name "github-actions"
           git add k8s/deployment.yaml
           git commit -m "Update image version"
